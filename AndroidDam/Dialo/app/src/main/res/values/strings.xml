@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Dialo</string>
+    <string name="msg">Pulsa un boton</string>
+    <string-array name="dialo1">
+        <item>Rock</item>
+        <item>Jazz</item>
+        <item>Clasica</item>
+    </string-array>
+    <string-array name="dialo2">
+        <item>Moto</item>
+        <item>Patin</item>
+        <item>Andar</item>
+    </string-array>
+</resources>

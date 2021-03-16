@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/msg"/>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/screen" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+            <Button android:text="Ventana de diálogo con mensaje" android:id="@+id/mensajeDiag" android:layout_width="match_parent" android:layout_height="wrap_content"> </Button>
+            <Button android:id="@+id/dos_botonesDiag" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ventana de diálogo con 2 botones"/>
+            <Button android:id="@+id/tres_botones_Diag" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ventana de diálogo con 3 botones"/>
+            <Button android:id="@+id/seleccionDiag" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ventana de diálogo con lista de selección"/>
+            <Button android:id="@+id/barraProgresoDiag" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ventana de diálogo con barra progreso"/>
+            <Button android:id="@+id/radioButtonDiag" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ventana de diálogo con una única selección"/>
+            <Button android:id="@+id/checkboxDiag" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ventana de diálogo con selección múltiple"/>
+            <Button android:id="@+id/entradaTextoDiag" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ventana de diálogo con entrada de texto"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

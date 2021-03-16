@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dip">
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/TextoUsuario"
+        android:textColor="@color/yellow"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/TextoPassword"
+        android:textColor="@color/yellow"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
+    <Button
+        android:id="@+id/BotonAceptar"
+        android:paddingLeft="20dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="Entrar"
+        android:paddingRight="20dip"
+        android:layout_width="104dp">
+    </Button>
+
+    <TextView
+        android:id="@+id/LabelMensaje"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:textStyle="bold" />
+</LinearLayout>
