@@ -1,6 +1,10 @@
 package com.example.tecniled;
 
-public class Foco {
+import java.io.Serializable;
+import java.util.Objects;
+
+public class Foco implements Serializable {
+
     private String nombre;
     private String marca;
     private int direccion;
@@ -13,6 +17,18 @@ public class Foco {
         this.direccion = direccion;
         this.canales = canales;
         this.dmx = dmx;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Foco foco = (Foco) o;
+        return direccion == foco.direccion &&
+                canales == foco.canales &&
+                dmx == foco.dmx &&
+                Objects.equals(nombre, foco.nombre) &&
+                Objects.equals(marca, foco.marca);
     }
 
 }
