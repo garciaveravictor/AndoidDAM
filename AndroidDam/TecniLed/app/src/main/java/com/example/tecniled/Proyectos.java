@@ -10,5 +10,5 @@ public class Proyectos {
         this.listaProyectos = listaProyectos;
     }
 
-    
+
 }
